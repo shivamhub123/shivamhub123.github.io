@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Form</title>
+</head>
+<body>
+    <!-- 
+        
+    <form></form> creates an Enviroment
+    attribute in forms :action,enctype,class,id
+
+    <input>
+    attribute's of input :type,name,placeholder,id,class
+
+    behaviour : block or inline
+    fname=Punit&lname=Katiyar&email=punit%40myunitbook.com&reg=Register+Now
+    -->
+
+    <form action="#" method="get">
+        <p> Enter Your Name :-
+            <input type="text" name="fname" placeholder="Enter Your First Name" >
+        </p>
+        <p> Enter Your Last Name :-
+            <input type="text" name="lname" placeholder="Enter Your Last Name" >
+        </p>
+        <p> Enter Your Email Id :-
+            <input type="email" name="Email" placeholder="Enter Your Email Id" >
+        </p>
+        <p> Enter Your Password :-
+            <input type="password" name="passwordd" >
+        </p>
+        <p> Enter Your Date of Birth :-
+            <input type="date" name="dateOfBirth" >
+        </p>
+        <p> Enter Time for the Appointment
+            <input type="time" name="time">
+        </p>
+        <p>
+            <input type="radio" name="cat">Student
+            <input type="radio" name="cat"> Developer
+        </p>
+        <p>
+            <input type="checkbox" name="TECHNOLOGY">HTML
+            <input type="checkbox" name="TECHNOLOGY">CSS
+            <input type="checkbox" name="TECHNOLOGY">JAVASCRIPT
+            <input type="checkbox" name="TECHNOLOGY"> REACT.JS
+        </p>
+        <p>
+            <input type="file" name="UploadResume" > 
+        </p>
+        <p> choose a color :-
+            <input type="color" >
+        </p>
+        <p>
+            <select name="course">
+                <option>Select Education</option>
+                <option>Bachelor in computer application</option>
+                <option>Master in computer application</option>
+                <option>Diploma in computer application</option>
+            </select>
+        </p>
+        <p>
+            <textarea name="address" cols="50" rows="10"></textarea>
+        </p>
+        <input type="submit" name="btn" value="Submit Now">
+    </form>
+</body>
+</html>
